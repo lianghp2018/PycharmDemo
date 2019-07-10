@@ -8,3 +8,4 @@ def test():
 
 
 help(test)
+help(str)
