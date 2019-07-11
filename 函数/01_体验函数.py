@@ -18,7 +18,7 @@ def 函数名(参数):
 
 
 def sel_func():
-    print('qewrqwer')
+    print('I love ')
     print('you')
 
 
