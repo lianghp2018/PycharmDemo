@@ -22,5 +22,6 @@ def sel_func():
     print('you')
 
 
+print('I love you')
 # 调用函数
 sel_func()
