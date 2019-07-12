@@ -16,4 +16,4 @@ def test_a():
 
 print(f'全局变量 i = {i}')
 test_a()
-print(f'全局变量 i = {i}')
+print(f'函数外部的全局变量 i = {i}')
