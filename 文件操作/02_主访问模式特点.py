@@ -19,10 +19,10 @@
 # f.close()
 
 # a : 追加,执行写入操作追加内容, 文件不存在会新建文件
-# f = open('2.txt', 'a')
+# f = open('1.txt', 'a')
 # f.write('dfsghd')
 # f.close()
 
 # 访问模式参数可以省略,默认为 'r',前提是文件必须存在
-f = open('2.txt')
+f = open('1.txt')
 f.close()

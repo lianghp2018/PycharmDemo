@@ -12,7 +12,7 @@
 # print(con)
 
 # w+
-# f = open('2.txt', 'w+')
+# f = open('1.txt', 'w+')
 # con = f.read()
 # print(con)
 
