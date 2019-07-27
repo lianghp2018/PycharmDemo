@@ -32,3 +32,4 @@ os.mkdir('cc')
 
 # listdir(): 获取目录列表
 # print(os.listdir())
+# print(os.listdir('aa))
