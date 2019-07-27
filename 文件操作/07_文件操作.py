@@ -6,6 +6,7 @@ import os
 
 # rename(): 重命名
 # os.rename('2.txt', '1.txt')
+# os.rename('aa', 'aaaa')
 
 # remove():删除文件
 # os.remove('1_copy.txt')
@@ -26,9 +27,9 @@ import os
 
 # 在指定目录下创建文件夹
 # 1.切换到指定目录
-os.chdir('aa')
+# os.chdir('aa')
 # 2.创建文件夹
-os.mkdir('cc')
+# os.mkdir('cc')
 
 # listdir(): 获取目录列表
 # print(os.listdir())
