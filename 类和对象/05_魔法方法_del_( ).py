@@ -8,5 +8,16 @@ class Washer:
     def __del__(self):
         print(f'{self}对象已被删除')
 
+    def print_info(self):
+        print(self)
+
+    def time_now(self):
+        print(self)
+
+    def name_set(self, a):
+        print(self)
+        print(a)
+
 
 haier = Washer(10, 20)
+haier.time_now()
