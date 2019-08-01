@@ -1,3 +1,9 @@
+"""
+继承关系
+    师父 & 学校 --> 徒弟 --> 徒孙
+"""
+
+
 # 师父类, 属性,方法
 class Master(object):
     def __init__(self):
@@ -41,11 +47,12 @@ class Prentice(School, Master):
         School.make_cake(self)
 
 
-daqiu = Prentice()
-print(daqiu.kongfu)
-daqiu.make_cake()
+class Tusun(Prentice):
+    pass
 
-# 调用父类方法
-daqiu.make_master_cake()
 
-daqiu.make_school_cake()
+xiaoqiu = Tusun()
+
+xiaoqiu.make_cake()
+xiaoqiu.make_master_cake()
+xiaoqiu.make_school_cake()

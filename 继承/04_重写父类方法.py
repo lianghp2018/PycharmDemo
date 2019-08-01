@@ -13,7 +13,6 @@ class Master(object):
 
     def make_mike(self):
         print(f'运用{self.kongfu}获取牛奶')
-        return
 
 
 # 学校类

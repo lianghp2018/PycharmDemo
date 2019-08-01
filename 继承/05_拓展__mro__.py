@@ -2,6 +2,7 @@
 类名.__mro__  查看类的继承关系
 """
 
+
 # 师父类, 属性,方法
 class Master(object):
     def __init__(self):
@@ -12,7 +13,6 @@ class Master(object):
 
     def make_mike(self):
         print(f'运用{self.kongfu}获取牛奶')
-        return
 
 
 # 学校类
