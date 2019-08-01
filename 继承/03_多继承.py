@@ -16,6 +16,7 @@ class Master(object):
         print(f'运用{self.kongfu}获取牛奶')
         return
 
+
 # 学校类
 class School(object):
     def __init__(self):
