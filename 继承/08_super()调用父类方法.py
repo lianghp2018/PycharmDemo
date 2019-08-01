@@ -13,6 +13,7 @@ super(当前类名, self).函数名()
        *该方法成功解决了上述问题  
 """
 
+
 # 师父类, 属性,方法
 class Master(object):
     def __init__(self):
