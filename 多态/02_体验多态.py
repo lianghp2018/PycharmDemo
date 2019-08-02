@@ -12,6 +12,7 @@ class DrugDog(Dog):
     def work(self):
         print('追查毒品....')
 
+
 # 传入不同的对象,执行不同的代码,即不同的work函数
 class Person(object):
     def work_with_dog(self, dog):
@@ -24,9 +25,3 @@ dd = DrugDog()
 daqiu = Person()
 daqiu.work_with_dog(ad)
 daqiu.work_with_dog(dd)
-
-
-
-
-
-
