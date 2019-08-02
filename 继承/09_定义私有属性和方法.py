@@ -33,7 +33,7 @@ class Prentice(School, Master):
     def get_money(self):
         return self.__money
 
-    def set_money(self, money)    :
+    def set_money(self, money):
         self.__money = money
 
     def __init__(self):
