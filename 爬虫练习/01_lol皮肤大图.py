@@ -32,5 +32,5 @@ for i, name in dict_id.items():
             image = requests.get(image_result).content
 
             # save 将图片以二进制的形式写入文件夹
-            with open('/home/lianghp/Code/PYvscode/test/image/%s%d.jpg' % (name, num), 'wb') as file:
+            with open(f'./image1/{name}.jpg', 'wb') as file:
                 file.write(image)

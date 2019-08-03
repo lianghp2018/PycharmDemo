@@ -21,6 +21,5 @@ for hero_id, hero_name in dict__hero_list.items():
     print(image_result)
     image = requests.get(image_result).content
 
-    with open('/home/lianghp/Code/PYvscode/test/image/%s.png' % (hero_name),
-              'wb') as file:
+    with open(f'./image2/{hero_name}.png','wb') as file:
         file.write(image)

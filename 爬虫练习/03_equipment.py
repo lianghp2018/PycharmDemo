@@ -41,7 +41,7 @@ for i in item_list:
     image_equ = image_url + id + '.png'
     image = requests.get(image_equ).content
     # print(i['description'])
-    with open(f'/home/lianghp/Code/PYvscode/test/equipment/{name}.png', 'wb') as file:
+    with open(f'./image3/{name}.png', 'wb') as file:
         file.write(image)
         c += 1
 
